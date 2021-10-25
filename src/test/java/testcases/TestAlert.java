@@ -31,9 +31,11 @@ public class TestAlert {
 		Alert alert = wait.until(ExpectedConditions.alertIsPresent());
 		System.out.println(alert.getText());
 		alert.accept();
+		driver.quit();
+		
 		
 		
 
 	}
-
+  
 }
